@@ -1,0 +1,136 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: century gothic;
+}
+body{
+  background-color: #212F3C;
+}
+
+.header {
+    background-color:#FFA07A;
+    height: 65px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+    /*margin jarak dalam li*/
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a {
+    /*agar tidak muncul garis biru di bawah yang mengandung link*/
+    text-decoration: none;
+    color: #212F3C;
+    font-weight: bold;
+
+}
+
+nav {
+    padding-top: 20px;
+    width: 100vw;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    /*flex agar horizontal dan float right lempar kanan*/
+    display: flex;
+    float: right;
+}
+
+li a {
+    display: block;
+}
+
+li a:hover {
+    color: white;
+    transition: all 1s;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 45px;
+    padding-right: 30px;
+    display: block;
+}
+
+span.menu-icon {
+    float: right;
+    display: none;
+}
+.logo img{
+  float: left;
+  height: 50px;
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+
+.main {
+    padding: 0px 0px;
+  }
+  .copy-container {
+    background-image:url("img/main-1.jpg");
+    background-size: cover;
+    height: 280px;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  .copy-container h2 {
+    font-size: 28px;
+    color: gainsboro;
+    margin-top: 100px;
+    padding-bottom: 20px;
+  }
+  .copy-container h3 {
+    font-size: 15px;
+    color: gainsboro;
+    padding-bottom: 20px;
+  }
+  .contents {
+    height: 440px;
+    margin-top: 15px;
+    padding: 30px;
+
+  }
+  .section-title {
+    border-bottom: 1px solid rgb(253, 166, 139);
+    font-size: 30px;
+    color: #dee7ec;
+    padding-bottom:10px;
+  }
+  .contents-item {
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+  }
+  .contents-item p {
+    text-align:center;
+    font-size: 25px;
+    color: #dee7ec;
+    font-family: optima;
+  }
+.footer {            
+ background-color: #FFA07A ;            
+ color: #212F3C;            
+ height: 120px;            
+padding: 40px;            
+  }            
+ 
+  .footer-list {            
+ float: right;            
+ }            
+   
+.footer-list h5 {            
+  padding-bottom: 20px;            
+ }
