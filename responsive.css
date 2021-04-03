@@ -1,0 +1,42 @@
+@media all and (max-width: 1000px) {
+
+  
+}
+
+@media all and (max-width: 670px) {
+
+  nav{
+    display: none;
+    }
+
+  .menu-icon {
+    color: whitesmoke;
+    float: right;
+    font-size: auto;
+    display: block;
+    padding: 6vw;
+    }
+    
+  span.menu-icon {
+    display: block;
+    }
+  .copy-container h2 {
+    margin-top: 40px;
+    }
+
+  .contents-item {
+    float: left;
+    padding-top: 30px;
+    padding-left: 85px;
+    padding-right: 40px;
+    }
+  
+  .logo img{
+    padding-left: 150px;
+   }
+
+  .section-title {
+    text-align: center;
+   }
+
+      }
